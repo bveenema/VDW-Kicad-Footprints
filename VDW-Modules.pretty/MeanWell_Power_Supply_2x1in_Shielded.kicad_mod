@@ -1,8 +1,10 @@
-(module RSDW20_H (layer F.Cu) (tedit 5BE318D7)
-  (fp_text reference PS2 (at -7.62 27.94) (layer F.SilkS)
+(module MeanWell_Power_Supply_2x1in_Shielded (layer F.Cu) (tedit 5EDD2020)
+  (descr "Common fooprint for Mean Well 2\"x1\" Shielded, board mount power supplies")
+  (tags "Mean Well, Power Supply, PTH, Shielded")
+  (fp_text reference PS? (at -7.62 27.94) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value RSDW20H-05 (at 7.62 27.94 180) (layer F.Fab)
+  (fp_text value MeanWell_Power_Supply_2x1in_Shielded (at 7.62 27.94 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -12.7 -25.4) (end -12.7 25.4) (layer F.SilkS) (width 0.15))
@@ -19,7 +21,7 @@
   (pad 4 thru_hole circle (at -10.16 -22.86) (size 2.8 2.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 -22.86) (size 2.8 2.8) (drill 1.2) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 10.16 -22.86) (size 2.8 2.8) (drill 1.2) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/VDW-Kicad-Footprints/VDW-Modules.3dshapes/RxDW20H.STEP
+  (model ${KIPRJMOD}/lib/VDW-Kicad-Footprints/VDW-Modules.3dshapes/MeanWell_Power_Supply_2x1in_Shielded.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
